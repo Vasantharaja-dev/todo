@@ -1,5 +1,6 @@
 export type Todo = {
     title: string,
     description: string,
-    status: boolean
+    status: boolean,
+    _id?: string
 }
